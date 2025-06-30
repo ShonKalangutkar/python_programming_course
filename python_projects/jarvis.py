@@ -161,7 +161,7 @@ def flip():
     speak("i flipped the coin and you got"+toss)
 
 if __name__ == "__main__":
-    # wishme()
+    wishme()
     wakeword = "jarvis"
     while True:
         query = takeCommandMic().lower()
